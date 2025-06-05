@@ -1,0 +1,16 @@
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\memory_task.Form1.resources
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\memory task.csproj.GenerateResource.cache
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\memory task.GeneratedMSBuildEditorConfig.editorconfig
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\memory task.AssemblyInfoInputs.cache
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\memory task.AssemblyInfo.cs
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\memory task.csproj.CoreCompileInputs.cache
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\bin\Debug\net8.0-windows\memory task.exe
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\bin\Debug\net8.0-windows\memory task.deps.json
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\bin\Debug\net8.0-windows\memory task.runtimeconfig.json
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\bin\Debug\net8.0-windows\memory task.dll
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\bin\Debug\net8.0-windows\memory task.pdb
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\memory task.dll
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\refint\memory task.dll
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\memory task.pdb
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\memory task.genruntimeconfig.cache
+\\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\ref\memory task.dll

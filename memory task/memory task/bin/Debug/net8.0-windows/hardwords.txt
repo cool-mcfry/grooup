@@ -1,0 +1,5 @@
+﻿adopt
+cover 
+bound
+video
+union

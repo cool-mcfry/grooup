@@ -1,0 +1,5 @@
+﻿jump
+kick
+like
+more
+nose

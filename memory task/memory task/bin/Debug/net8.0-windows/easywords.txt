@@ -1,0 +1,5 @@
+﻿car
+bin
+lid
+yes
+dog
