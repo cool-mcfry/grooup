@@ -14,3 +14,19 @@
 \\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\memory task.pdb
 \\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\memory task.genruntimeconfig.cache
 \\JLC-FSRV01\s24000006736\Documents\computer science\memory task\memory task\obj\Debug\net8.0-windows\ref\memory task.dll
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\bin\Debug\net8.0-windows\memory task.exe
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\bin\Debug\net8.0-windows\memory task.deps.json
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\bin\Debug\net8.0-windows\memory task.runtimeconfig.json
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\bin\Debug\net8.0-windows\memory task.dll
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\bin\Debug\net8.0-windows\memory task.pdb
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\obj\Debug\net8.0-windows\memory_task.Form1.resources
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\obj\Debug\net8.0-windows\memory task.csproj.GenerateResource.cache
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\obj\Debug\net8.0-windows\memory task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\obj\Debug\net8.0-windows\memory task.AssemblyInfoInputs.cache
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\obj\Debug\net8.0-windows\memory task.AssemblyInfo.cs
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\obj\Debug\net8.0-windows\memory task.csproj.CoreCompileInputs.cache
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\obj\Debug\net8.0-windows\memory task.dll
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\obj\Debug\net8.0-windows\refint\memory task.dll
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\obj\Debug\net8.0-windows\memory task.pdb
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\obj\Debug\net8.0-windows\memory task.genruntimeconfig.cache
+C:\Users\joshu\Documents\comp science\grooup-main\memory task\memory task\obj\Debug\net8.0-windows\ref\memory task.dll

@@ -6,8 +6,9 @@ namespace memory_task
     {
         System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
         string mode = "";
+        double currentScore = 0;
+        double score = 0;
         List<string> words = new List<string>();
-        int score = 0;
         public Form1()
         {
             InitializeComponent();
@@ -25,11 +26,8 @@ namespace memory_task
             {
                 WordsList.Items.Clear();
                 info.Text = "write your answer in the text box given with each word being on a new line";
+                Answers.Show();
                 submit.Show();
-            }
-            else
-            {
-                timer.Stop();
             }
         }
 
@@ -53,7 +51,6 @@ namespace memory_task
         public void easyMode()
         {
             WordsList.Show();
-            Answers.Show();
             WordsList.Items.AddRange(File.ReadAllLines("easywords.txt"));
             foreach (string s in WordsList.Items)
             {
@@ -74,7 +71,6 @@ namespace memory_task
         public void mediumMode()
         {
             WordsList.Show();
-            Answers.Show();
             WordsList.Items.AddRange(File.ReadAllLines("mediumwords.txt"));
             foreach (string s in WordsList.Items)
             {
@@ -95,7 +91,6 @@ namespace memory_task
         public void hardMode()
         {
             WordsList.Show();
-            Answers.Show();
             WordsList.Items.AddRange(File.ReadAllLines("hardwords.txt"));
             foreach (string s in WordsList.Items)
             {
@@ -106,6 +101,7 @@ namespace memory_task
 
         private void submit_Click(object sender, EventArgs e)
         {
+            timer.Stop();
             string[] answers = Answers.Text.Split('\n');
             check(answers);
         }
@@ -113,14 +109,53 @@ namespace memory_task
         {
             for (int i = 0; i < answers.Length; i++)
             {
+               
                 foreach (string s in words)
                 {
+                    
                     if (s.ToLower() == answers[i].ToLower().Trim())
                     {
-                        score++;
-                    }    
+                        score = score +1;
+                    }
                 }
             }
+            Debug.WriteLine(words.Count);
+            Debug.WriteLine(score);
+            updateScore();
+        }
+        public void updateScore()
+        {
+            
+            if (mode == "easy")
+            {
+                currentScore = currentScore + Math.Pow(score, 2);
+            }
+
+            if (mode == "medium")
+            {
+                currentScore = currentScore + Math.Pow(score, 3);
+            }
+
+            if (mode == "hard")
+            {
+                currentScore = currentScore+ Math.Pow(score, 4);
+            }
+            Debug.WriteLine(currentScore);
+            score = 0;
+            Debug.WriteLine(score);
+            score2.Text = currentScore.ToString();
+            endGame();
+        }
+        public void endGame()
+        {
+            words.Clear();
+            Answers.Clear();
+            WordsList.Hide();
+            Answers.Hide();
+            submit.Hide();
+            Start.Show();
+            info.Hide();
+            Start.Text = "play again";
         }
     }
 }

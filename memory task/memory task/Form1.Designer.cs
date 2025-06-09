@@ -36,13 +36,16 @@
             Answers = new TextBox();
             info = new Label();
             submit = new Button();
+            score1 = new Button();
+            score2 = new Button();
             SuspendLayout();
             // 
             // Easy
             // 
-            Easy.Location = new Point(12, 12);
+            Easy.Location = new Point(14, 16);
+            Easy.Margin = new Padding(3, 4, 3, 4);
             Easy.Name = "Easy";
-            Easy.Size = new Size(75, 23);
+            Easy.Size = new Size(86, 31);
             Easy.TabIndex = 0;
             Easy.Text = "Easy";
             Easy.UseVisualStyleBackColor = true;
@@ -50,9 +53,10 @@
             // 
             // Medium
             // 
-            Medium.Location = new Point(93, 12);
+            Medium.Location = new Point(106, 16);
+            Medium.Margin = new Padding(3, 4, 3, 4);
             Medium.Name = "Medium";
-            Medium.Size = new Size(75, 23);
+            Medium.Size = new Size(86, 31);
             Medium.TabIndex = 1;
             Medium.Text = "Medium";
             Medium.UseVisualStyleBackColor = true;
@@ -60,9 +64,10 @@
             // 
             // Hard
             // 
-            Hard.Location = new Point(174, 12);
+            Hard.Location = new Point(199, 16);
+            Hard.Margin = new Padding(3, 4, 3, 4);
             Hard.Name = "Hard";
-            Hard.Size = new Size(75, 23);
+            Hard.Size = new Size(86, 31);
             Hard.TabIndex = 2;
             Hard.Text = "Hard";
             Hard.UseVisualStyleBackColor = true;
@@ -71,9 +76,10 @@
             // Start
             // 
             Start.Font = new Font("Stencil", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Start.Location = new Point(340, 131);
+            Start.Location = new Point(389, 175);
+            Start.Margin = new Padding(3, 4, 3, 4);
             Start.Name = "Start";
-            Start.Size = new Size(161, 102);
+            Start.Size = new Size(184, 136);
             Start.TabIndex = 3;
             Start.Text = "Click To Start";
             Start.UseVisualStyleBackColor = true;
@@ -82,43 +88,66 @@
             // WordsList
             // 
             WordsList.FormattingEnabled = true;
-            WordsList.ItemHeight = 15;
-            WordsList.Location = new Point(381, 131);
+            WordsList.Location = new Point(435, 175);
+            WordsList.Margin = new Padding(3, 4, 3, 4);
             WordsList.Name = "WordsList";
-            WordsList.Size = new Size(120, 79);
+            WordsList.Size = new Size(137, 124);
             WordsList.TabIndex = 4;
             // 
             // Answers
             // 
-            Answers.Location = new Point(275, 131);
+            Answers.Location = new Point(314, 175);
+            Answers.Margin = new Padding(3, 4, 3, 4);
             Answers.Multiline = true;
             Answers.Name = "Answers";
-            Answers.Size = new Size(100, 79);
+            Answers.Size = new Size(114, 124);
             Answers.TabIndex = 5;
             // 
             // info
             // 
             info.AutoSize = true;
-            info.Location = new Point(249, 94);
+            info.Location = new Point(129, 125);
             info.Name = "info";
-            info.Size = new Size(0, 15);
+            info.Size = new Size(0, 20);
             info.TabIndex = 6;
             // 
             // submit
             // 
-            submit.Location = new Point(340, 216);
+            submit.Location = new Point(389, 329);
+            submit.Margin = new Padding(3, 4, 3, 4);
             submit.Name = "submit";
-            submit.Size = new Size(75, 23);
+            submit.Size = new Size(86, 31);
             submit.TabIndex = 7;
             submit.Text = "Submit";
             submit.UseVisualStyleBackColor = true;
             submit.Click += submit_Click;
             // 
+            // score1
+            // 
+            score1.Font = new Font("Stencil", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            score1.Location = new Point(668, 15);
+            score1.Name = "score1";
+            score1.Size = new Size(203, 55);
+            score1.TabIndex = 8;
+            score1.Text = "SCORE";
+            score1.UseVisualStyleBackColor = true;
+            // 
+            // score2
+            // 
+            score2.Font = new Font("Stencil", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            score2.Location = new Point(668, 76);
+            score2.Name = "score2";
+            score2.Size = new Size(203, 69);
+            score2.TabIndex = 9;
+            score2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
+            Controls.Add(score2);
+            Controls.Add(score1);
             Controls.Add(submit);
             Controls.Add(info);
             Controls.Add(Answers);
@@ -127,6 +156,7 @@
             Controls.Add(Hard);
             Controls.Add(Medium);
             Controls.Add(Easy);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -143,5 +173,7 @@
         private TextBox Answers;
         private Label info;
         private Button submit;
+        private Button score1;
+        private Button score2;
     }
 }
